@@ -1,0 +1,30 @@
+{
+  "name": "solidity-template",
+  "version": "1.0.0",
+  "description": "solidity dev template",
+  "main": "app.ts",
+  "scripts": {
+    "test": "npx hardhat clean && npx hardhat coverage"
+  },
+  "keywords": [
+    "solidity"
+  ],
+  "author": "Amir M. Shirif",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.1",
+    "@nomicfoundation/hardhat-ethers": "^3.0.3",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@types/chai": "^4.3.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.6.2",
+    "hardhat": "^2.16.1",
+    "typechain": "^8.2.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2",
+    "@openzeppelin/contracts-upgradeable": "^4.9.2"
+  }
+}
